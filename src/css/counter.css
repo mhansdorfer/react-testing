@@ -1,0 +1,96 @@
+.counterMain {
+    background-color: seashell;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.counterVal {
+    margin: 10px;
+}
+
+.btn-inc, .btn-dec {
+    background-color:gold;
+    border: 1px solid gold; 
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.btn-dec {
+    padding: 1px 9px;
+    background-color:orange;
+}
+
+.btn-reset {
+    background-color:tomato;
+    border: 1px solid tomato;
+    width: 100%;
+}
+
+.btn-change, .btn-reset {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bolder;
+    color: floralwhite;
+}
+
+.btn-change {
+    background-color: mediumseagreen;
+    border: 1px solid mediumseagreen;
+    border-radius: 5px;
+    width: 45%;
+    margin-left: 10px;
+}
+
+.incDecSection, .resetSection, .changeSection {
+    margin: 10px;
+}
+
+.changeSection {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.incDecSection {
+    margin: 30px 103px ;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid orange;
+    padding: 5px;
+    width: 50%;
+}
+
+.btn-reset:hover, .btn-reset:focus, .btn-reset:active {
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn-reset:focus, .btn-reset:active {
+    background-color:red;
+    border: 1px solid orangered;
+}
+
+.btn-change:hover, .btn-change:focus, .btn-change:active {
+    background-color:  rgb(62, 173, 112);
+    border: 1px solid rgb(62, 173, 112);
+    outline: none;
+}
+
+.btn-change:focus, .btn-change:active {
+    background-color: rgb(66, 151, 104);
+    border: 1px solid rgb(66, 151, 104);
+}
+
+.btn-inc:focus, .btn-dec:focus, .btn-inc:active, .btn-dec:active {
+    outline: none;
+    border-color: orange;
+}
+input:focus, input:active {
+    outline: none;
+    border: 1px solid mediumseagreen;
+}
