@@ -1,0 +1,49 @@
+{
+  "name": "react-testing",
+  "version": "1.0.0",
+  "description": "This is a project which uses jest and enzyme to test components",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "react-scripts start",
+    "dev:server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev:bundler": "webpack -w --mode=development"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "eslint": "^7.15.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "react-scripts": "^4.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
