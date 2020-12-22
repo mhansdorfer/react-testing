@@ -1,4 +1,4 @@
-import sum from '../src/sum.js'
+import sum from './sum.js'
 
 test('should sum of 1 and 2 be 3', () => {
     expect(sum(1, 2)).toBe(3);
