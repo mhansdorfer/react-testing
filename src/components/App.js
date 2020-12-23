@@ -7,4 +7,10 @@ export default function App() {
       <Counter start={10}/>
     </div>
   );
+  // return (
+  //   <div>
+  //     <Counter start={10}/>
+  //     <Counter id="noprops"/>
+  //   </div>
+  // );
 }

@@ -1,11 +1,14 @@
+// /import "cypress-react-selector";
+
 describe("Counter component tests", () => {
 
     beforeEach(() => {
         cy.visit('localhost:3000/');
-      })
+        //cy.waitForReact(1000, '#mountNode'); 
+      });
 
     it('should counter be initially 0 if no props is used', () => {
- 
+        //cy.getReact('Counter', { props: { id : 'noprops'} }).get(".counterVal").should('be.equal', '0');
     });
     
     it('should counter be initially 10 if props.start is 10', () => {
@@ -42,7 +45,7 @@ describe("Counter component tests", () => {
     });
 
     it("should Reset button reset the counter to initial state 0", () => {
-
+        //TODO:
     });
 
     it("should Reset button reset the counter to initial state 10", () => {

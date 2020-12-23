@@ -7,6 +7,7 @@ describe('testing Counter component', () => {
         const wrapper = shallow(<Counter />);
         const counter = wrapper.find('.counterVal');
         expect(counter.text()).toBe('0');
+        //expect(counter.text()).to.equal('0');  //"TO" IS UNDEFINED
     });
 
     test('should counter be initially 10 if props.start is 10', () => {
