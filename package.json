@@ -19,7 +19,11 @@
     "moduleNameMapper":{
       "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
       "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
-    }  
+    },
+    "testMatch": [ 
+      "**/__tests__/**/*.[jt]s?(x)", 
+      "**/?(*.)+(test).[jt]s?(x)" 
+    ] 
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
